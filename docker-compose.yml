@@ -6,6 +6,6 @@ services:
     image: dockerstepbystep:latest
     build: .
     ports:
-      - "8080:8080"
+      - "8080:8080"   # host port:container port
     volumes:
-      - "./app_data:/var/app_data"
+      - "./app_data:/var/app_data"    # host directory:container directory
