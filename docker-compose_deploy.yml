@@ -10,7 +10,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - "app_data:/var/app_data"
+      - "app_data:/var/app_data"    # volume name:place_to_mount in volume
 
 volumes:
   app_data:
